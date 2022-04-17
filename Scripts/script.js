@@ -1,27 +1,13 @@
-/*console.log('je suis hello'); /*pas de = !!) & test pour vérifier le lien html > js --*/
-//function nom() {
-//function titleJS() {
- 
-//}
 function hollow1() {
     var apparait=document.querySelector('.calcule');
     
     event.preventDefault();
     apparait.innerHTML = " ";
     console.log(apparait);
-    /*var integration = document.querySelector('.calcule');
-    //integration.innerHTML = "";
-    apparait.innerHTML = integration.innerHTML;*/
-    //apparait= document.getElementsByClassName('.MedianeH').ClassList.remove(document.querySelector('.calcule'));
-    //return hollow1();
 }
 function hollow2() {
     apparait=document.querySelector('.calcule');
 
-    //var integration = document.querySelector('.calcule');
-    //integration.innerHTML = "";
-    //document.getElementsByClassName('.MedianeH').ClassList.add(document.querySelector('.calcule'));
- 
 }
 function addition(...params){
     var resultat=0;
@@ -65,14 +51,6 @@ function calculer() {
     return false
     
 }
-/*function flagnbre1(){
-    var flag_Nbre1= document.querySelector(".nombre1");
-    flag_Nbre1.innerHTML=" ";
-    flag_Nbre1.innerHTML +="Saisir : un nombre";
-    flag_Nbre1.style.backgroundColor="yellow";
-    
-
-}*/
 
 document.querySelector("#nbre1").onmouseover = function(){
         document.querySelector(".nombre1").innerHTML =" ";   
@@ -80,9 +58,7 @@ document.querySelector("#nbre1").onmouseover = function(){
         document.querySelector(".nombre1").style.backgroundColor="yellow";
 }
 document.querySelector("#nbre1").onmouseout = function(){
-    document.querySelector(".nombre1").innerHTML =" ";   
-    /*document.querySelector(".nombre2").innerHTML +="Saisir : un nombre";
-    document.querySelector(".nombre2").style.backgroundColor="yellow";*/
+    document.querySelector(".nombre1").innerHTML =" ";
 }
 document.querySelector("#nbre2").onmouseover = function(){
     document.querySelector(".nombre2").innerHTML =" ";   
@@ -91,8 +67,6 @@ document.querySelector("#nbre2").onmouseover = function(){
 }
 document.querySelector("#nbre2").onmouseout = function(){
 document.querySelector(".nombre2").innerHTML =" ";   
-/*document.querySelector(".nombre2").innerHTML +="Saisir : un nombre";
-document.querySelector(".nombre2").style.backgroundColor="yellow";*/
 }
 document.querySelector("#selection").onmouseover = function(){
     document.querySelector(".Operator").innerHTML =" ";   
@@ -100,31 +74,5 @@ document.querySelector("#selection").onmouseover = function(){
     document.querySelector(".Operator").style.backgroundColor="yellow";
 }
 document.querySelector("#selection").onmouseout = function(){
-document.querySelector(".Operator").innerHTML =" ";   
-/*document.querySelector(".nombre2").innerHTML +="Saisir : un nombre";
-document.querySelector(".nombre2").style.backgroundColor="yellow";*/
+document.querySelector(".Operator").innerHTML =" ";
 }
-
-
-
-
-/*function flagOperator(){
-    var flag_Operation= document.querySelector('.Operator');
-    flag_Operation.innerHTML=" ";
-    flag_Operation.innerHTML +="Saisir : + - / ou *";
-    flag_Operation.style.backgroundColor="yellow";
-}*/
-
-
-
-/*function hollow2() {
-    var apparait=document.querySelector('.calcule');
-    apparait.innerHTML = " ";
-
-    //var integration = document.querySelector('.calcule');
-    //integration.innerHTML = "";
-    document.getElementsByClassName('.MedianeH').ClassList.add(document.querySelector('.calcule'));
- 
-}
-/*var resultat = document.getElementById('#demo');
-console.log(resultat.innerHTML);*/
