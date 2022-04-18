@@ -53,26 +53,26 @@ function calculer() {
 }
 
 document.querySelector("#nbre1").onmouseover = function(){
-        document.querySelector(".nombre1").innerHTML =" ";   
-        document.querySelector(".nombre1").innerHTML +="Saisir : un nombre";
-        document.querySelector(".nombre1").style.backgroundColor="yellow";
+        document.querySelector(".infoLong").innerHTML =" ";   
+        document.querySelector(".infoLong").innerHTML +="Saisir : un nombre";
+        document.querySelector(".infoLong").style.backgroundColor="yellow";
 }
 document.querySelector("#nbre1").onmouseout = function(){
-    document.querySelector(".nombre1").innerHTML =" ";
+    document.querySelector(".infoLong").innerHTML =" ";
 }
 document.querySelector("#nbre2").onmouseover = function(){
-    document.querySelector(".nombre2").innerHTML =" ";   
-    document.querySelector(".nombre2").innerHTML +="Saisir : un nombre";
-    document.querySelector(".nombre2").style.backgroundColor="yellow";
+    document.querySelector(".infoLong").innerHTML =" ";   
+    document.querySelector(".infoLong").innerHTML +="Saisir : un nombre";
+    document.querySelector(".infoLong").style.backgroundColor="yellow";
 }
 document.querySelector("#nbre2").onmouseout = function(){
-document.querySelector(".nombre2").innerHTML =" ";   
+document.querySelector(".infoLong").innerHTML =" ";   
 }
 document.querySelector("#selection").onmouseover = function(){
-    document.querySelector(".Operator").innerHTML =" ";   
-    document.querySelector(".Operator").innerHTML +="Saisir : + - / ou *";
-    document.querySelector(".Operator").style.backgroundColor="yellow";
+    document.querySelector(".infoLong").innerHTML =" ";   
+    document.querySelector(".infoLong").innerHTML +="Saisir : + - / ou *";
+    document.querySelector(".infoLong").style.backgroundColor="yellow";
 }
 document.querySelector("#selection").onmouseout = function(){
-document.querySelector(".Operator").innerHTML =" ";
+document.querySelector(".infoLong").innerHTML =" ";
 }
